@@ -1,3 +1,4 @@
+var socket = io.connect('http://45.79.138.24:44453');
 const {app, BrowserWindow, ipcMain, dialog} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require('electron-updater');
@@ -10,8 +11,6 @@ var setupWindow = null;
 var err;
 
 var configDir = require('os').homedir() + '/Documents/My Games/SWGPC';
-
-var socket = io.connect('http://45.79.138.24:44453');
 
 log.transports.file.file = configDir + '/swgpc-log.txt';
 autoUpdater.logger = log;
