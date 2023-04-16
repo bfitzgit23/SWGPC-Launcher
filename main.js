@@ -1,4 +1,4 @@
-const {app, BrowserWindow, ipcMain, dialog, serveriP} = require('electron');
+const {app, BrowserWindow, ipcMain, dialog, serverIp} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require('electron-updater');
 const path = require('path');
