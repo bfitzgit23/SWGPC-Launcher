@@ -8,7 +8,6 @@ const path = require('path');
 const url = require('url');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
-const serverIp = require('electron')
 
 var setupWindow = null;
 var err;
