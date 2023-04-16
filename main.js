@@ -11,20 +11,7 @@ var err;
 
 var configDir = require('os').homedir() + '/Documents/My Games/SWGPC';
 
-{
-    "servers": [
-        {
-            "name": "ProjectCarbonite",
-            "ip": "45.79.138.24",
-            "port": "44453"
-        }, 
-
-// Create config directory
-if (!fs.existsSync(configDir))
-  err = mkdirp(configDir, function (err) {
-    if (err)
-      return err;
-  });
+var socket = io.connect('http://45.79.138.24:44453');
 
 log.transports.file.file = configDir + '/swgpc-log.txt';
 autoUpdater.logger = log;
