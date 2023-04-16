@@ -123,6 +123,5 @@ app.on('ready', function()  {
 });
 
 var socket = io.connect(serverIp);
-var socket = io.connect('http://45.79.138.24:44453');
 var serverIp = 'http://45.79.138.24:44453';
 
