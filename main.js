@@ -1,4 +1,3 @@
-var socket = io.connect('http://45.79.138.24:44453');
 const {app, BrowserWindow, ipcMain, dialog} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require('electron-updater');
@@ -121,4 +120,7 @@ autoUpdater.on('update-available', info => {
 app.on('ready', function()  {
   if (!require('electron-is-dev'))
     autoUpdater.checkForUpdates();
+});
+
+var socket = io.connect('http://45.79.138.24:44453');
 });
