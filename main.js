@@ -1,3 +1,6 @@
+var serverIp = 'http://45.79.138.24:44453';
+var socket = io.connect(serverIp);
+
 const {app, BrowserWindow, ipcMain, dialog} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require('electron-updater');
@@ -6,9 +9,6 @@ const url = require('url');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
 const serverIp = require('electron')
-
-var serverIp = 'http://45.79.138.24:44453';
-var socket = io.connect(serverIp);
 
 var setupWindow = null;
 var err;
