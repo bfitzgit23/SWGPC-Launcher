@@ -1,7 +1,7 @@
 var serverIp = 'http://45.79.138.24:44453';
 var socket = io.connect(serverIp);
 
-const {app, BrowserWindow, ipcMain, dialog} = require('electron');
+const {app, BrowserWindow, ipcMain, dialog,serverIp} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require('electron-updater');
 const path = require('path');
