@@ -7,6 +7,9 @@ const fs = require('fs');
 const mkdirp = require('mkdirp');
 const serverIp = require('electron')
 
+var serverIp = 'http://45.79.138.24:44453';
+var socket = io.connect(serverIp);
+
 var setupWindow = null;
 var err;
 
@@ -123,6 +126,4 @@ app.on('ready', function()  {
     autoUpdater.checkForUpdates();
 });
 
-var socket = io.connect(serverIp);
-var serverIp = 'http://45.79.138.24:44453';
 
