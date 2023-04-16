@@ -11,6 +11,14 @@ var err;
 
 var configDir = require('os').homedir() + '/Documents/My Games/SWGPC';
 
+{
+    "servers": [
+        {
+            "name": "ProjectCarbonite",
+            "ip": "45.79.138.24",
+            "port": "44453"
+        }, 
+
 // Create config directory
 if (!fs.existsSync(configDir))
   err = mkdirp(configDir, function (err) {
