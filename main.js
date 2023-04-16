@@ -124,4 +124,4 @@ app.on('ready', function()  {
 
 var socket = io.connect(serverIp);
 var serverIp = 'http://45.79.138.24:44453';
-}
+};
