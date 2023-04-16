@@ -5,7 +5,7 @@ const path = require('path');
 const url = require('url');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
-const serverIp = require('serverIp');
+const serverIp = require('electron-server');
 
 var setupWindow = null;
 var err;
