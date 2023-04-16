@@ -1,4 +1,7 @@
 {
- "servers": "SWGPC",
- "ip": "45.79.138.24",
-},
+    "servers": [
+        {
+            "name": "ProjectCarbonite",
+            "ip": "45.79.138.24",
+            "port": "44453"
+        },

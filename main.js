@@ -5,7 +5,6 @@ const path = require('path');
 const url = require('url');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
-var serverIp = 45.79.138.24;
 
 var setupWindow = null;
 var err;
