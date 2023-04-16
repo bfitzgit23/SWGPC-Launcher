@@ -122,7 +122,6 @@ app.on('ready', function()  {
     autoUpdater.checkForUpdates();
 });
 
-var socket = io.connect('http://localhost:44453');
 var socket = io.connect(serverIp);
 var serverIp = 'http://45.79.138.24:44453';
-
+});
