@@ -1,7 +1,7 @@
 {
-  "name": "swgpc-launcher",
+  "name": "swgepic-launcher",
   "version": "1.0.1",
-  "description": "Project Carbonite Launcher",
+  "description": "SWG-Epic Launcher",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -35,14 +35,14 @@
     "adm-zip": "^0.4.11",
     "electron-is-dev": "^0.2.0",
     "electron-log": "^2.2.17",
-    "electron-updater": "^3.0.3",
+    "electron-updater": "^4.0.0",
     "follow-redirects": "^1.5.9",
     "mkdirp": "^0.5.1",
     "random-access-file": "^1.8.1",
     "request": "^2.88.0"
   },
   "build": {
-    "productName": "Project Carbonite Launcher",
+    "productName": "SWG-Epic Launcher",
     "win": {
       "target": [
         "nsis",

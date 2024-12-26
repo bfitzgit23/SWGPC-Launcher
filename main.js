@@ -1,7 +1,7 @@
-var serverIp = 'http://45.79.138.24:44453';
+var serverIp = 'https://154.12.255.58:44453';
 var socket = io.connect(serverIp);
 
-const {app, BrowserWindow, ipcMain, dialog,serverIp} = require('electron');
+const {app, BrowserWindow, ipcMain, dialog} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require('electron-updater');
 const path = require('path');
@@ -12,9 +12,9 @@ const mkdirp = require('mkdirp');
 var setupWindow = null;
 var err;
 
-var configDir = require('os').homedir() + '/Documents/My Games/SWGPC';
+var configDir = require('os').homedir() + '/Documents/My Games/SWGEpic';
 
-log.transports.file.file = configDir + '/swgpc-log.txt';
+log.transports.file.file = configDir + '/swgepic-log.txt';
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = 'info';
 

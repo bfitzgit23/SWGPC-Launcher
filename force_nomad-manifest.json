@@ -1,0 +1,10 @@
+ {
+  "required": [
+    {
+      "name": "mtg_patch_022.tre",
+      "size": 22424507,
+      "hash": "7531403a209c952c4fdbd13a1d3aea69",
+      "url": "http://185.193.66.4/tre/mtg_patch_022.tre"
+    }
+  ]
+}
