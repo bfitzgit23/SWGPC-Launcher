@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+productName: SWG-Epic Launcher
+win:
+  target:
+    - nsis
+    - zip
+nsis:
+  perMachine: true
+electronVersion: 2.0.18
