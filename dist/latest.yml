@@ -1,9 +1,0 @@
-version: 1.0.1
-files:
-  - url: swgepic-launcher-setup-1.0.1.exe
-    sha512: WWLA9ozhTLmXXaf6f5HbAJ0NfoAIGoVGjd4sexwVqopZwU6OgGNuG3UEg1va5+hMrbFBK5Mcws8E+ol1yS0UVg==
-    size: 34305077
-    isAdminRightsRequired: true
-path: swgepic-launcher-setup-1.0.1.exe
-sha512: WWLA9ozhTLmXXaf6f5HbAJ0NfoAIGoVGjd4sexwVqopZwU6OgGNuG3UEg1va5+hMrbFBK5Mcws8E+ol1yS0UVg==
-releaseDate: '2024-12-26T07:00:55.365Z'
