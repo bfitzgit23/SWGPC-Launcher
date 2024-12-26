@@ -21,7 +21,6 @@ function createWindow () {
   if (require('electron-is-dev')) mainWindow.webContents.openDevTools();
   mainWindow.once('ready-to-show', () => mainWindow.show());
   mainWindow.once('closed', () => mainWindow = null);
-}
 
 app.on('ready', createWindow);
 app.on('window-all-closed', () => app.quit());
